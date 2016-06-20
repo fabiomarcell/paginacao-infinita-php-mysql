@@ -62,7 +62,7 @@
                                     }, 500);
                                 }
                                 else {
-                                    $("#re").append('<div class="col-md-12"><h3>Sem Mais Resultados...</h3></div>');
+                                    $("#res").append('<div class="col-md-12"><h3>Sem Mais Resultados...</h3></div>');
                                 }
                                 $("#res").fadeTo("slow", 1);
                             }
