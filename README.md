@@ -14,6 +14,7 @@ Testado em servidor apache.
 -Acessar o arquivo functions.php
 -editar as variáveis $db, $user, e $pass, para acessar o seu banco de dados.
 -no arquivo functions.php, na função getRegistros, pode alterar o 2º parametro($itens), para obter maior numero de registros por página.
+	-Caso exista a alteração de quantidade de itens, alterar no index.php, na linha 'data.totalItens < 5', trocando 5, pela nova quantidade de itens.
 
 ##### Testes
 -no arquivo actions.php, edite a variável $html, para que se adapte ao layout da sua aplicação
