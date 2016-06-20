@@ -13,22 +13,7 @@
         <div class="row"><h1 class="col-md-8 col-md-offset-4">Exemplo de Paginação</h1></div>
 
         <section class="row" id="res" >
-
-            <!--<article class="col-md-12">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="http://lorempixel.com/800/400/abstract" class="img-responsive">
-                    </div>
-                    <div class="col-md-8">
-                        <h2>Notícia 1</h2>
-                        <p>Resumo</p>
-                    </div>
-                </div>
-            </article>
-
-            <div class="clearfix"></div>
-            <br>-->
-
+            <!--Some Stuff =]-->
         </section>
 
         <span id="page" style="display:none">1</span>
@@ -64,7 +49,6 @@
                             dataType: 'json',
                             processData: true,
                             success: function (data) {
-                                console.log(data);
                                 if (data.results !== "") {
                                     $("#res").append(data.results);
                                     setTimeout(function () {
